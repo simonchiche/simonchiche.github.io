@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Simon Chiche"
   pronouns         : # example: "she/her"  
-  bio              : "Postdoctoral researcher in astrophysics at  Inter-University Institute For High Energies (IIHE)"
-  location         : "Brussels"
-  employer         : "Université Libre de Bruxelles"
+  bio              : "Postdoctoral Researcher in Astrophysics"
+  location         : "Brussels Belgium"
+  employer         : "Inter-University Institute For High Energies (Université Libre de Bruxelles)"
   uri              : # URL
   email            : "simon.chiche@ulb.be" 
 
