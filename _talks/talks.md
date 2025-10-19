@@ -1,6 +1,5 @@
 ---
 title: Talks and Presentations
-layout: page
 permalink: /talks/
 ---
 
