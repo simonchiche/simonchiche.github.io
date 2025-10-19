@@ -1,24 +1,7 @@
 ---
 title: Publications
-layout: page
 permalink: /publications/
 ---
-
-<style>
-/* Limite la largeur du contenu et centre la page */
-main, .page-content, .wrapper, .container, .post, .page, article {
-  max-width: 820px;      /* ou 70ch si vous préférez limiter par longueur de ligne */
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-/* Optionnel : lisibilité des paragraphes */
-.page-content p, .post p, article p {
-  line-height: 1.6;
-}
-</style>
 
 ## Published articles
 
