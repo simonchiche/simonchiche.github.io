@@ -4,6 +4,22 @@ layout: page
 permalink: /publications/
 ---
 
+<style>
+/* Limite la largeur du contenu et centre la page */
+main, .page-content, .wrapper, .container, .post, .page, article {
+  max-width: 820px;      /* ou 70ch si vous préférez limiter par longueur de ligne */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Optionnel : lisibilité des paragraphes */
+.page-content p, .post p, article p {
+  line-height: 1.6;
+}
+</style>
+
 ## Published articles
 
 - **S. Chiche** et al., Loss of coherence and change in emission physics for radio emission from very inclined cosmic-ray air shower, *Physical Review Letters* (2024), [[arXiv:2404.14541](https://arxiv.org/abs/2404.14541)]
