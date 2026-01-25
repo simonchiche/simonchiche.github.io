@@ -7,4 +7,4 @@ redirect_from:
   - /about.html
 ---
 
-I am a french astrophysicst working as a postdoctoral researcher at Université Libre de Bruxelles. 
+I am a french astrophysicist working as a postdoctoral researcher at Université Libre de Bruxelles. 
