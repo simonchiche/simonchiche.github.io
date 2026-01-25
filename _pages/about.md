@@ -7,4 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a french astrophysicist working as a postdoctoral researcher at Université Libre de Bruxelles. 
+Hi! I am a French postdoctoral researcher at the Interuniversity Institute for High Energies (IIHE), Université libre de Bruxelles.
+
+My research focuses on the most extreme and violent phenomena in the Universe. I am deeply involved in the search for ultra-high-energy neutrinos (E > 10^17 eV), which are unique tracers of cosmic particle acceleration at the highest energies I am a member of three international collaborations — GRAND, ARA, and RNO-G — dedicated to the radio detection of cosmic rays, gamma rays, and neutrinos.
+
+My work addresses the challenges of multi-messenger high-energy astroparticle detection with next-generation experiments, through the physical modeling of particle cascades and their associated electromagnetic emission. The central goal of my research is to connect observational data with astrophysical models in order to constrain the nature and emission mechanisms of the most powerful cosmic accelerators.
