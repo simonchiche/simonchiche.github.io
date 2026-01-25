@@ -3,6 +3,8 @@ title: Publications
 permalink: /publications/
 ---
 
+Below is a selection of my publications. For a complete list, please visit [Google Scholar](https://scholar.google.com/citations?user=nc9x2f8AAAAJ&hl=fr)
+
 ## Published articles
 
 - **S. Chiche** et al., Loss of coherence and change in emission physics for radio emission from very inclined cosmic-ray air shower, *Physical Review Letters* (2024), [[arXiv:2404.14541](https://arxiv.org/abs/2404.14541)]
@@ -12,7 +14,10 @@ permalink: /publications/
 
 ## Publications in preparation
 
-- **S. Chiche**, O. Martineau, K. Kotera, M. Tueros, K. de Vries, Radio-Morphing: Performances and results, to be submitted to *Nuclear Instrumentation and Method*.
+- **S. Chiche**, O. Martineau, K. Kotera, M. Tueros, K. de Vries, Radio Morphing: Fast computation of inclined air shower radio emission, to be submitted to *Astroparticle Physics*, [[arXiv:2601.06418](https://arxiv.org/abs/2601.06418)].
+
+- **S. Chiche**, S. Toscano, K. de Vries, In-ice Radio Signatures of Cosmic Ray Particle Cascades, to be submitted to *Astroparticle Physics*, [[arXiv:2601.06417](https://arxiv.org/abs/2601.06417)].
+
 
 ## Collaboration articles
 
