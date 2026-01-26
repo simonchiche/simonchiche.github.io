@@ -35,4 +35,4 @@ Below is a selection of my publications. For a complete list, please visit [Goog
 
 ## PhD thesis
 
-- **S. Chiche**, Looking for ultra-high-energy astroparticles in a radio haystack, *Sorbonne Université* (2023), [link](https://theses.hal.science/tel-04356502/document) \enddocument
+- **S. Chiche**, Looking for ultra-high-energy astroparticles in a radio haystack, *Sorbonne Université* (2023), [link](https://theses.hal.science/tel-04356502/document) 
