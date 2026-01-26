@@ -28,13 +28,10 @@ Below is a selection of my publications. For a complete list, please visit [Goog
 
 - **S. Chiche**, for the GRAND collaboration, GRANDProto300: status, science case, and prospects, *PoS ARENA2024* (2024) 059, [arXiv:2409.02195](https://arxiv.org/abs/2409.02195)
 - **S. Chiche**, N. Moller, A. Bishop, S. de Kockere, K. de Vries, S. Toscano, Radio signatures of cosmic-ray showers with deep in-ice antennas, *PoS ARENA2024* (2024) 050, [arXiv:2409.02185](https://arxiv.org/abs/2409.02185)
-- **S. Chiche**, C. Zhang, K. Kotera, K. de Vries, T. Huege, F. Schlüter, M. Tueros, New features in the radio-emission of very inclined air-showers, *PoS ICRC2023* (2023) 394, [link](https://pos.sissa.it/444/394/)
-- M. Guelfand, **S. Chiche**, et al., Particle content of very inclined air showers for radio signal modeling, *PoS ICRC2023* (2023) 287, [link](https://pos.sissa.it/444/287/)
 - **S. Chiche**, V. Decoene, Overview of radio experiments for UHE cosmic particles detection, *56th Rencontres de Moriond VHEPU* (2022), [[arXiv:2210.13560](https://arxiv.org/abs/2210.13560)]
 - **S. Chiche**, O. Martineau, K. Kotera, M. Tueros, K. de Vries, Radio-Morphing: a fast, efficient, and accurate tool to compute the radio signals from air-showers, *PoS ICRC2021* (2021) 194, [[arXiv:2202.05886](https://arxiv.org/abs/2202.05886)]
 - V. Decoene, O. Martineau, M. Tueros, **S. Chiche**, A reconstruction procedure for near horizon extensive air showers based on radio signals, *PoS ICRC2021* (2021) 211, [[arXiv:2107.03206](https://arxiv.org/abs/2107.03206)]
-- F. Durret, **S. Chiche**, C. Lobo, M. Jauzac, Hunting for jellyfish galaxies in clusters, *Galaxy Cluster Formation II* (2021) 22, [link](https://ui.adsabs.harvard.edu/abs/2021gcf2.confE..22D/abstract)
-- F. Durret, **S. Chiche**, C. Lobo, M. Jauzac, Jellyfish galaxies in MACS J0717.5+3745 and their link to the cosmic web, *SF2A-2021* (2021) 387-390, [link](https://ui.adsabs.harvard.edu/abs/2021sf2a.conf..387D/abstract)
+
 
 ## PhD thesis
 
