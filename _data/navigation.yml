@@ -14,11 +14,8 @@ main:
   - title: "Talks"
     url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
-
-  - title: "Outreach"
-    url: /outreach/
+  - title: "Teaching and Outreach"
+    url: /teaching-and-outreach/
     
 #  - title: "Portfolio"
 #    url: /portfolio/
