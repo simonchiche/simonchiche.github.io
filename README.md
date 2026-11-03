@@ -3,6 +3,24 @@
 
 ![Academic Pages template example](images/homepage.png "Academic Pages template example")
 
+## Personnaliser la page Research
+
+L'onglet **Research** est accessible à l'adresse `/research/`. Son contenu se
+modifie dans [`_data/research.yml`](_data/research.yml) : l'introduction, puis
+un bloc par projet avec son titre, sa description en Markdown et sa figure.
+Les textes actuels sont une première trame à adapter et les images sont des
+emplacements provisoires.
+
+Pour remplacer une image, ajoutez votre fichier dans `images/research/`, puis
+modifiez `image` (par exemple `/images/research/mon-projet.png`) et `image_alt`
+(une description de la figure). `image_caption` permet d'ajouter une légende ;
+laissez `""` pour la masquer. Les images conservent leurs proportions.
+
+Pour ajouter une section, dupliquez un bloc sous `projects:` en conservant
+l'indentation. Les sections s'affichent dans l'ordre du fichier, avec le texte
+à gauche et l'image à droite sur ordinateur, puis l'image sous le texte sur mobile.
+La mise en page se trouve dans `_pages/research.html` et `_sass/_research.scss`.
+
 # Getting Started
 
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)

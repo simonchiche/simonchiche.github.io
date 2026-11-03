@@ -1,0 +1,51 @@
+/* Research projects: text and figure side by side on larger screens. */
+.research-project {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.25em;
+  align-items: start;
+  padding: 2em 0;
+  border-top: 1px solid $border-color;
+
+  @include breakpoint($medium) {
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+    gap: 2em;
+  }
+}
+
+.research-project__text {
+  min-width: 0;
+  overflow-wrap: break-word;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.research-project__title {
+  margin: 0 0 0.75em;
+  font-weight: bold;
+}
+
+.research-project__figure {
+  display: block;
+  min-width: 0;
+  margin: 0;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+  }
+
+  figcaption {
+    margin: 0.75em 0 0;
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+}

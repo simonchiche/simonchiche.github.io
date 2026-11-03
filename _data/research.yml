@@ -1,0 +1,41 @@
+# Contenu de la page Research (en anglais, comme le reste du site).
+# Modifiez l'introduction, puis dupliquez un bloc de la liste "projects"
+# pour ajouter un projet. L'ordre des blocs est l'ordre d'affichage.
+# Les descriptions acceptent le Markdown : **gras**, *italique*, liens, etc.
+# Placez vos figures dans images/research/ et indiquez leur chemin ci-dessous.
+# Remplacez aussi "image_alt" par une description de votre figure.
+# "image_caption" est facultatif : laissez "" pour masquer la légende.
+
+introduction: |
+  My research focuses on the radio detection of high-energy cosmic particles
+  and the modelling of particle cascades and their electromagnetic emission.
+  Below are some of the research topics I work on.
+
+projects:
+  - title: "Very inclined air showers"
+    description: |
+      I study the radio emission produced by very inclined cosmic-ray air
+      showers. My work explores the underlying emission mechanisms, coherence
+      and polarisation signatures, with applications to the radio detection
+      of high-energy astroparticles.
+    image: /images/research/project-placeholder.svg
+    image_alt: "Placeholder for an illustration of very inclined air showers."
+    image_caption: ""
+
+  - title: "Radio Morphing"
+    description: |
+      Radio Morphing is a tool for the fast computation of radio signals from
+      air showers. I work on modelling these signals to support the simulation
+      and study of inclined air showers.
+    image: /images/research/project-placeholder.svg
+    image_alt: "Placeholder for an illustration of Radio Morphing."
+    image_caption: ""
+
+  - title: "Radio signatures in ice"
+    description: |
+      I study radio signatures from cosmic-ray particle cascades in ice and
+      their detection with deep in-ice antennas. This work is part of my
+      broader interest in radio detection with experiments such as ARA and RNO-G.
+    image: /images/research/project-placeholder.svg
+    image_alt: "Placeholder for an illustration of radio signatures in ice."
+    image_caption: ""

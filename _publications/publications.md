@@ -8,7 +8,7 @@ Below is a selection of my publications. For a complete list, please visit [Goog
 ## Published articles
 
 - **S. Chiche** et al., Loss of coherence and change in emission physics for radio emission from very inclined cosmic-ray air shower, *Physical Review Letters* (2024), [[arXiv:2404.14541](https://arxiv.org/abs/2404.14541)]
-- M. Guelfand, **Simon Chiche** et al., Particle content of very inclined air showers for radio signal modeling, *Journal of Cosmology and Astroparticle Physics* (2024), [[arXiv:2310.19612](https://arxiv.org/abs/2310.19612)]
+- M. Guelfand, **S. Chiche** et al., Particle content of very inclined air showers for radio signal modeling, *Journal of Cosmology and Astroparticle Physics* (2024), [[arXiv:2310.19612](https://arxiv.org/abs/2310.19612)]
 - **S. Chiche**, K. Kotera, O. Martineau, M. Tueros, K. de Vries,  Polarisation signatures in radio for inclined cosmic-ray induced air-shower identification, *Astroparticle Physics* (2022), [[arXiv:2202.06846](https://arxiv.org/abs/2202.06846)]
 - F. Durret, **S. Chiche**, C. Lobo, M. Jauzac, Jellyfish galaxy candidates in MACS J0717.5+3745 and thirty-nine other clusters of the DAFT/FADA and CLASH surveys, *Astronomy & Astrophysics* (2021), [[arXiv:2102.02595](https://arxiv.org/abs/2102.02595)]
 
@@ -22,7 +22,7 @@ Below is a selection of my publications. For a complete list, please visit [Goog
 ## Collaboration articles
 
 - GRAND collaboration, GRANDlib: A simulation pipeline for the Giant Radio Array for Neutrino Detection (GRAND), *Computer Physics Communications* (2024), [[arXiv:2408.10926](https://arxiv.org/abs/2408.10926)]
-- RNO-G collaboration, *Instrument design and performance of the first seven stations of RNO-G*, to be submitted, [[arXiv:2411.12922](https://arxiv.org/abs/2411.12922)]
+- RNO-G collaboration, Instrument design and performance of the first seven stations of RNO-G, *Journal of Instrumentation*, [[arXiv:2411.12922](https://arxiv.org/abs/2411.12922)]
 
 ## Conference Proceedings
 
