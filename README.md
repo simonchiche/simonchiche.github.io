@@ -21,6 +21,14 @@ l'indentation. Les sections s'affichent dans l'ordre du fichier, avec le texte
 à gauche et l'image à droite sur ordinateur, puis l'image sous le texte sur mobile.
 La mise en page se trouve dans `_pages/research.html` et `_sass/_research.scss`.
 
+Le bandeau en haut de la page se configure dans le bloc `header` de
+`_pages/research.html`. Pour changer son fond, ajoutez une image panoramique
+dans `images/research/`, puis remplacez `overlay_image` par
+`research/mon-bandeau.jpg` (le template ajoute automatiquement `images/`).
+`overlay_filter` règle le voile sombre qui garde le titre lisible : `0` pour
+aucun voile, `1` pour un fond entièrement noir. Le fond actuel est une
+illustration provisoire de ciel étoilé.
+
 # Getting Started
 
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)

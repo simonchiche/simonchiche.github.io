@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="480" viewBox="0 0 1800 480" role="img" aria-labelledby="title description">
+  <title id="title">Abstract night sky</title>
+  <desc id="description">A wide, dark blue star field above a gently curved horizon.</desc>
+  <rect width="1800" height="480" fill="#10283d"/>
+  <g fill="#e0eff4" opacity="0.65">
+    <circle cx="75" cy="78" r="1.5"/>
+    <circle cx="180" cy="340" r="1.2"/>
+    <circle cx="256" cy="156" r="1.8"/>
+    <circle cx="342" cy="55" r="1"/>
+    <circle cx="429" cy="276" r="1.2"/>
+    <circle cx="531" cy="118" r="1.4"/>
+    <circle cx="645" cy="379" r="1.6"/>
+    <circle cx="716" cy="212" r="1.1"/>
+    <circle cx="819" cy="64" r="1.6"/>
+    <circle cx="890" cy="316" r="1.3"/>
+    <circle cx="982" cy="156" r="2"/>
+    <circle cx="1074" cy="400" r="1.2"/>
+    <circle cx="1158" cy="84" r="1.4"/>
+    <circle cx="1242" cy="258" r="2"/>
+    <circle cx="1316" cy="148" r="1.2"/>
+    <circle cx="1417" cy="357" r="1.6"/>
+    <circle cx="1483" cy="65" r="1.1"/>
+    <circle cx="1552" cy="205" r="2"/>
+    <circle cx="1627" cy="413" r="1.2"/>
+    <circle cx="1738" cy="127" r="1.6"/>
+  </g>
+  <g fill="#fff" opacity="0.9">
+    <circle cx="1127" cy="225" r="2.8"/>
+    <circle cx="1460" cy="165" r="2.4"/>
+    <circle cx="1670" cy="295" r="2.5"/>
+  </g>
+  <path d="M0 466 Q900 335 1800 435 V480 H0Z" fill="#0a1828" opacity="0.5"/>
+</svg>
