@@ -2,6 +2,9 @@
 permalink: /
 title: "About me"
 author_profile: true
+background:
+  image: /images/research/research-banner.svg
+  opacity: 0.18
 redirect_from: 
   - /about/
   - /about.html

@@ -1,0 +1,32 @@
+/* A separate background layer keeps the page content fully opaque. */
+.has-page-background {
+  isolation: isolate;
+
+  #main a {
+    color: $link-color-hover;
+
+    &:hover,
+    &:focus {
+      color: mix(#000, $link-color, 40%);
+    }
+  }
+}
+
+.page-background {
+  position: fixed;
+  top: $masthead-height;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+@media print {
+  .page-background {
+    display: none;
+  }
+}

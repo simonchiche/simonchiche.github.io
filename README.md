@@ -3,6 +3,16 @@
 
 ![Academic Pages template example](images/homepage.png "Academic Pages template example")
 
+## Fond de la page d'accueil
+
+Le bloc `background` de `_pages/about.md` configure le fond de la homepage.
+`image` indique le chemin de l'image (par exemple `/images/mon-fond.jpg`) et
+`opacity` règle sa visibilité, de `0` (invisible) à `1` (opaque).
+Le ciel étoilé est actuellement affiché à `0.18`, soit 18 % d'opacité.
+Le fond couvre toute la largeur sous le menu et s'adapte à l'écran ; les textes
+et le profil conservent leur opacité normale. Pour le retirer, supprimez le bloc
+`background`. Son style se trouve dans `_sass/_background.scss`.
+
 ## Personnaliser la page Research
 
 L'onglet **Research** est accessible à l'adresse `/research/`. Son contenu se

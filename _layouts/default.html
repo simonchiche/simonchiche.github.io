@@ -11,10 +11,15 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body{% if page.background.image %} class="has-page-background"{% endif %}>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
+
+    {% if page.background.image %}
+      <div class="page-background" aria-hidden="true"
+        style="background-image: url('{{ page.background.image | relative_url }}'); opacity: {{ page.background.opacity | default: 0.18 }};"></div>
+    {% endif %}
 
     {{ content }}
 
