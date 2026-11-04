@@ -3,7 +3,7 @@ permalink: /
 title: "About me"
 author_profile: true
 background:
-  image: /images/research/research-banner.svg
+  image: /images/GRAND1.jpg
   opacity: 0.18
 redirect_from: 
   - /about/
