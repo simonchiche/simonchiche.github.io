@@ -23,6 +23,13 @@
     margin: 0;
     border-radius: $border-radius;
   }
+
+  figcaption {
+    margin: 0.65em 0 0;
+    color: #666;
+    font-size: 0.8em;
+    line-height: 1.5;
+  }
 }
 
 .outreach-section__text {
