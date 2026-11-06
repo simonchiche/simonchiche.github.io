@@ -231,6 +231,13 @@ collections:
 
 # These settings control how pages and collections are included in the site
 defaults:
+  # Trial: share the homepage background across the site.
+  - scope:
+      path: ""
+    values:
+      background:
+        image: /images/GRAND1.jpg
+        opacity: 0.18
   # _posts
   - scope:
       path: ""

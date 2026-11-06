@@ -3,15 +3,23 @@
 
 ![Academic Pages template example](images/homepage.png "Academic Pages template example")
 
-## Fond de la page d'accueil
+## Fond du site (essai)
 
-Le bloc `background` de `_pages/about.md` configure le fond de la homepage.
+Le premier bloc de `defaults` dans `_config.yml` applique le fond de la homepage
+à toutes les pages pour cet essai. Le CV HTML l'exclut avec `background: false`
+dans `_pages/cv.md` ; le CV PDF reste indépendant de la mise en page du site.
+
 `image` indique le chemin de l'image (par exemple `/images/mon-fond.jpg`) et
 `opacity` règle sa visibilité, de `0` (invisible) à `1` (opaque).
 La photo `images/GRAND1.jpg` est actuellement affichée à `0.18`, soit 18 % d'opacité.
 Le fond couvre toute la largeur sous le menu et s'adapte à l'écran ; les textes
-et le profil conservent leur opacité normale. Pour le retirer, supprimez le bloc
-`background`. Son style se trouve dans `_sass/_background.scss`.
+et le profil conservent leur opacité normale. Son style se trouve dans
+`_sass/_background.scss`.
+
+Pour revenir au fond uniquement sur la homepage, supprimez le premier bloc
+global de `defaults` ajouté pour cet essai. La homepage conserve ses propres
+réglages `background` dans `_pages/about.md`. Relancez le serveur Jekyll local
+après avoir modifié `_config.yml` si vous utilisez un aperçu local.
 
 ## Personnaliser la page Research
 
