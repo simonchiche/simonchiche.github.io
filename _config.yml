@@ -31,8 +31,8 @@ author:
   email            : "simon.chiche@ulb.be" 
 
   # Academic websites
-  arxiv            :  "https://arxiv.org/search/?searchtype=author&query=Chiche%2C+S"
-  googlescholar    : #"https://scholar.google.com/citations?user=nc9x2f8AAAAJ&hl=fr"
+  arxiv            : # URL
+  googlescholar    : "https://scholar.google.com/citations?user=nc9x2f8AAAAJ&hl=en"
   impactstory      : # URL
   orcid            : #"http://orcid.org/yourorcidurl"
   semantic         : # URL
