@@ -36,8 +36,8 @@ Le bandeau en haut de la page se configure dans le bloc `header` de
 dans `images/research/`, puis remplacez `overlay_image` par
 `research/mon-bandeau.jpg` (le template ajoute automatiquement `images/`).
 `overlay_filter` règle le voile sombre qui garde le titre lisible : `0` pour
-aucun voile, `1` pour un fond entièrement noir. Le fond actuel est une
-illustration provisoire de ciel étoilé.
+aucun voile, `1` pour un fond entièrement noir. Le bandeau utilise actuellement
+l'image `images/research/AirShower.png`.
 
 # Getting Started
 
