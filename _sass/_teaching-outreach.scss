@@ -5,7 +5,7 @@
   gap: 1.25em;
   align-items: start;
 
-  @include breakpoint($medium) {
+  @include breakpoint($small) {
     grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
     gap: 2em;
   }
@@ -28,12 +28,4 @@
 .outreach-section__text {
   min-width: 0;
   overflow-wrap: break-word;
-
-  .list__item {
-    padding-right: 0;
-  }
-
-  > .list__item:first-child .archive__item-title {
-    margin-top: 0;
-  }
 }
