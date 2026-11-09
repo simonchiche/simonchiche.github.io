@@ -19,13 +19,17 @@ L'onglet **Research** est accessible à l'adresse `/research/`. Les textes et
 les figures se modifient dans [`_data/research.yml`](_data/research.yml) :
 `overview` contient les deux premières sections, `neutrinos` contient
 l'introduction, GRAND, RNO-G et la conclusion, puis `projects` accueillera
-les projets de recherche. Les textes sont une trame à compléter ; trois
-figures sont provisoires et GRAND utilise la photo `images/GRAND1.jpg`.
+les projets de recherche. Les deux premières sections utilisent les figures
+`CosmicRays.jpg` et `MM.png`, et GRAND utilise `GRAND.png`, toutes dans
+`images/research/`. Les textes sur les expériences restent à compléter et
+la figure de RNO-G est provisoire, à droite du texte.
 
 Pour remplacer une image, ajoutez votre fichier dans `images/research/`, puis
 modifiez `image` (par exemple `/images/research/mon-projet.png`) et `image_alt`
 (une description de la figure). `image_caption` permet d'ajouter une légende ;
-laissez `""` pour la masquer. Les images conservent leurs proportions.
+laissez `""` pour la masquer. Un modèle de légende est présent sous la première
+image, avec le même style gris et la même petite taille que sur la page
+Teaching and Outreach. Les images conservent leurs proportions.
 
 `image_side: left` place l'image à gauche du texte ; `right` la place à droite.
 L'introduction et la conclusion du bloc `neutrinos` sont réparties sur deux

@@ -8,23 +8,41 @@
 # Titres 1 et 2 : un paragraphe accompagné d'une image.
 overview:
   - id: powerful-sources
-    title: "What are the most powerful sources in the Universe?"
+    title: "Probing the high-energy Universe"
     description: |
-      What are the most powerful sources in the Universe? Over the past decades, we have witnessed an increasing number of powerful transient phenomena such as gamma-ray bursts, binary neutron star mergers, blazar flares, associated 
-      with the emission of high-energy cosmic messengers. Yet, the mechanisms that drive these emissions are still poorly undertstood. Ultra-high-energy comic rays are high-energy atomic nuclei (E>10^18 eV) that travel through space at relavistic speed.
-      These particles can be detected on Earth through the particle cascades they induce when interacting with the atmosphere. Yet, more than 50 years after their first detection, the sources of these particles and the mechanisms that can accelerate them to such extreme energies remain unknow.
-
-    image: /images/research/project-placeholder.svg
-    image_alt: "Placeholder for an illustration of powerful cosmic sources."
+      What are the most powerful sources in the Universe?
+      Over the past decades, astronomers have witnessed some of the most violent
+      phenomena in the cosmos, from gamma-ray bursts and neutron star mergers
+      to flares from supermassive black holes. These extreme environments may
+      be capable of accelerating cosmic rays, high-energy atomic nuclei that
+      travel through space at near the speed of light. These particles can be
+      detected through the particle cascades they induce when interacting with
+      Earth's atmosphere. Yet, more than 50 years after the first detection of
+      ultra-high-energy cosmic rays (E &gt; 10<sup>18</sup> eV), the sources of these
+      particles and their acceleration mechanisms at the highest energies
+      remain largely unknown.
+    image: /images/research/CosmicRays.jpg
+    image_alt: "Cosmic rays producing particle cascades in Earth's atmosphere."
     image_side: left
-    image_caption: ""
+    image_caption: "Caption to be added. Credit: source to be added."
 
   - id: multi-messenger
     title: "A multi-messenger experience"
     description: |
-      Paragraph to be added.
-    image: /images/research/project-placeholder.svg
-    image_alt: "Placeholder for a multi-messenger astronomy illustration."
+      One of the main challenges in identifying cosmic-ray sources is that these
+      particles are electrically charged. As such, they are deflected by Galactic
+      and extragalactic magnetic fields, making it difficult to trace them back
+      to their origins. However, ultra-high-energy cosmic rays can also interact
+      with surrounding matter and radiation near their sources, or with background
+      light during their propagation, producing neutral secondary particles such
+      as neutrinos and gamma rays. Unlike cosmic rays, ultra-high-energy neutrinos
+      (E &gt; 10<sup>17</sup> eV) can travel across cosmological distances in a
+      straight line with negligible attenuation. Combining observations of cosmic
+      rays with those of other cosmic messengers, such as neutrinos, gamma rays
+      and gravitational waves, therefore offers a powerful way to investigate
+      cosmic ray origin.
+    image: /images/research/MM.png
+    image_alt: "Gamma rays, neutrinos, cosmic rays and gravitational waves travelling from a cosmic source to Earth."
     image_side: right
     image_caption: ""
 
@@ -42,8 +60,8 @@ neutrinos:
       title: "The Giant Radio for Neutrino Detection (GRAND)"
       description: |
         Paragraph about GRAND to be added.
-      image: /images/GRAND1.jpg
-      image_alt: "A GRAND radio antenna and its solar panel in the field."
+      image: /images/research/GRAND.png
+      image_alt: "Diagram of the GRAND detection principle, showing particle showers above a radio antenna array in mountainous terrain."
       image_side: left
       image_caption: ""
 
@@ -53,7 +71,7 @@ neutrinos:
         Paragraph about RNO-G to be added.
       image: /images/research/project-placeholder.svg
       image_alt: "Placeholder for an illustration of RNO-G."
-      image_side: left
+      image_side: right
       image_caption: ""
 
   conclusion: |
