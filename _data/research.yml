@@ -10,7 +10,10 @@ overview:
   - id: powerful-sources
     title: "What are the most powerful sources in the Universe?"
     description: |
-      Paragraph to be added.
+      What are the most powerful sources in the Universe? Over the past decades, we have witnessed an increasing number of powerful transient phenomena such as gamma-ray bursts, binary neutron star mergers, blazar flares, associated 
+      with the emission of high-energy cosmic messengers. Yet, the mechanisms that drive these emissions are still poorly undertstood. Ultra-high-energy comic rays are high-energy atomic nuclei (E>10^18 eV) that travel through space at relavistic speed.
+      These particles can be detected on Earth through the particle cascades they induce when interacting with the atmosphere. Yet, more than 50 years after their first detection, the sources of these particles and the mechanisms that can accelerate them to such extreme energies remain unknow.
+
     image: /images/research/project-placeholder.svg
     image_alt: "Placeholder for an illustration of powerful cosmic sources."
     image_side: left
