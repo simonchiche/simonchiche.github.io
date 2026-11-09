@@ -15,21 +15,26 @@ et le profil conservent leur opacité normale. Pour le retirer, supprimez le blo
 
 ## Personnaliser la page Research
 
-L'onglet **Research** est accessible à l'adresse `/research/`. Son contenu se
-modifie dans [`_data/research.yml`](_data/research.yml) : l'introduction, puis
-un bloc par projet avec son titre, sa description en Markdown et sa figure.
-Les textes actuels sont une première trame à adapter et les images sont des
-emplacements provisoires.
+L'onglet **Research** est accessible à l'adresse `/research/`. Les textes et
+les figures se modifient dans [`_data/research.yml`](_data/research.yml) :
+`overview` contient les deux premières sections, `neutrinos` contient
+l'introduction, GRAND, RNO-G et la conclusion, puis `projects` accueillera
+les projets de recherche. Les textes sont une trame à compléter ; trois
+figures sont provisoires et GRAND utilise la photo `images/GRAND1.jpg`.
 
 Pour remplacer une image, ajoutez votre fichier dans `images/research/`, puis
 modifiez `image` (par exemple `/images/research/mon-projet.png`) et `image_alt`
 (une description de la figure). `image_caption` permet d'ajouter une légende ;
 laissez `""` pour la masquer. Les images conservent leurs proportions.
 
-Pour ajouter une section, dupliquez un bloc sous `projects:` en conservant
-l'indentation. Les sections s'affichent dans l'ordre du fichier, avec le texte
-à gauche et l'image à droite sur ordinateur, puis l'image sous le texte sur mobile.
-La mise en page se trouve dans `_pages/research.html` et `_sass/_research.scss`.
+`image_side: left` place l'image à gauche du texte ; `right` la place à droite.
+L'introduction et la conclusion du bloc `neutrinos` sont réparties sur deux
+colonnes. Sur mobile, les textes et les figures sont empilés et les deux
+colonnes reviennent à une seule. La section **My research projects** reste
+vide pour le moment (`projects: []`).
+
+La structure se trouve dans `_pages/research.html`, le bloc texte/image partagé
+dans `_includes/research-block.html` et les styles dans `_sass/_research.scss`.
 
 Le bandeau en haut de la page se configure dans le bloc `header` de
 `_pages/research.html`. Pour changer son fond, ajoutez une image panoramique

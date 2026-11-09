@@ -1,41 +1,63 @@
-# Contenu de la page Research (en anglais, comme le reste du site).
-# Modifiez l'introduction, puis dupliquez un bloc de la liste "projects"
-# pour ajouter un projet. L'ordre des blocs est l'ordre d'affichage.
-# Les descriptions acceptent le Markdown : **gras**, *italique*, liens, etc.
-# Placez vos figures dans images/research/ et indiquez leur chemin ci-dessous.
-# Remplacez aussi "image_alt" par une description de votre figure.
-# "image_caption" est facultatif : laissez "" pour masquer la légende.
+# Contenu de Research, en anglais comme le reste du site.
+# Remplacez les textes provisoires dans "description", "introduction" et
+# "conclusion". Ces champs acceptent le Markdown : **gras**, *italique*, liens.
+# "image_side" indique le côté de l'image : left ou right.
+# "image_alt" décrit la figure ; "image_caption" est une légende facultative.
+# Les chemins d'images commencent par /images/.
 
-introduction: |
-  My research focuses on the radio detection of high-energy cosmic particles
-  and the modelling of particle cascades and their electromagnetic emission.
-  Below are some of the research topics I work on.
-
-projects:
-  - title: "Very inclined air showers"
+# Titres 1 et 2 : un paragraphe accompagné d'une image.
+overview:
+  - id: powerful-sources
+    title: "What are the most powerful sources in the Universe?"
     description: |
-      I study the radio emission produced by very inclined cosmic-ray air
-      showers. My work explores the underlying emission mechanisms, coherence
-      and polarisation signatures, with applications to the radio detection
-      of high-energy astroparticles.
+      Paragraph to be added.
     image: /images/research/project-placeholder.svg
-    image_alt: "Placeholder for an illustration of very inclined air showers."
+    image_alt: "Placeholder for an illustration of powerful cosmic sources."
+    image_side: left
     image_caption: ""
 
-  - title: "Radio Morphing"
+  - id: multi-messenger
+    title: "A multi-messenger experience"
     description: |
-      Radio Morphing is a tool for the fast computation of radio signals from
-      air showers. I work on modelling these signals to support the simulation
-      and study of inclined air showers.
+      Paragraph to be added.
     image: /images/research/project-placeholder.svg
-    image_alt: "Placeholder for an illustration of Radio Morphing."
+    image_alt: "Placeholder for a multi-messenger astronomy illustration."
+    image_side: right
     image_caption: ""
 
-  - title: "Radio signatures in ice"
-    description: |
-      I study radio signatures from cosmic-ray particle cascades in ice and
-      their detection with deep in-ice antennas. This work is part of my
-      broader interest in radio detection with experiments such as ARA and RNO-G.
-    image: /images/research/project-placeholder.svg
-    image_alt: "Placeholder for an illustration of radio signatures in ice."
-    image_caption: ""
+# Titre 3 : introduction en deux colonnes, deux expériences, puis conclusion.
+# Les colonnes de l'introduction et de la conclusion s'équilibrent automatiquement.
+neutrinos:
+  title: "Detecting ultra-high energy neutrinos."
+  introduction: |
+    Introductory text about ultra-high-energy neutrinos to be added.
+
+    Introductory text about the experiments below to be added.
+
+  experiments:
+    - id: grand
+      title: "The Giant Radio for Neutrino Detection (GRAND)"
+      description: |
+        Paragraph about GRAND to be added.
+      image: /images/GRAND1.jpg
+      image_alt: "A GRAND radio antenna and its solar panel in the field."
+      image_side: left
+      image_caption: ""
+
+    - id: rno-g
+      title: "The Radio Neutrino Observatory in Greenland (RNO-G)"
+      description: |
+        Paragraph about RNO-G to be added.
+      image: /images/research/project-placeholder.svg
+      image_alt: "Placeholder for an illustration of RNO-G."
+      image_side: left
+      image_caption: ""
+
+  conclusion: |
+    Concluding text to be added.
+
+    Further concluding text to be added.
+
+# Titre 4 : la liste reste vide pour être complétée plus tard.
+projects_title: "My research projects"
+projects: []

@@ -9,23 +9,41 @@ header:
   overlay_filter: 0.2
 ---
 
-{{ site.data.research.introduction | markdownify }}
-
-<div class="research-projects">
-  {% for project in site.data.research.projects %}
-    <section class="research-project" aria-labelledby="research-project-title-{{ forloop.index }}">
-      <div class="research-project__text">
-        <h2 class="research-project__title" id="research-project-title-{{ forloop.index }}">{{ project.title | escape }}</h2>
-        {{ project.description | markdownify }}
-      </div>
-      <figure class="research-project__figure">
-        <img src="{{ project.image | relative_url }}" alt="{{ project.image_alt | escape }}" loading="lazy" decoding="async">
-        {% if project.image_caption and project.image_caption != empty %}
-          <figcaption>{{ project.image_caption | markdownify }}</figcaption>
-        {% endif %}
-      </figure>
+<div class="research-content">
+  {% for section in site.data.research.overview %}
+    <section class="research-section" aria-labelledby="research-{{ section.id | escape }}-title">
+      <h2 id="research-{{ section.id | escape }}-title">{{ section.title | escape }}</h2>
+      {% include research-block.html block=section %}
     </section>
   {% endfor %}
-</div>
 
-<p>See my <a href="{{ '/publications/' | relative_url }}">publications</a> for related articles.</p>
+  <section class="research-section" aria-labelledby="research-neutrinos-title">
+    <h2 id="research-neutrinos-title">{{ site.data.research.neutrinos.title | escape }}</h2>
+    <div class="research-columns">
+      {{ site.data.research.neutrinos.introduction | markdownify }}
+    </div>
+
+    {% for experiment in site.data.research.neutrinos.experiments %}
+      <section class="research-experiment" aria-labelledby="research-{{ experiment.id | escape }}-title">
+        <h3 id="research-{{ experiment.id | escape }}-title">{{ experiment.title | escape }}</h3>
+        {% include research-block.html block=experiment %}
+      </section>
+    {% endfor %}
+
+    <div class="research-columns research-conclusion">
+      {{ site.data.research.neutrinos.conclusion | markdownify }}
+    </div>
+  </section>
+
+  <hr class="research-divider">
+
+  <section class="research-section research-projects" aria-labelledby="research-projects-title">
+    <h2 id="research-projects-title">{{ site.data.research.projects_title | escape }}</h2>
+    {% for project in site.data.research.projects %}
+      <section class="research-experiment" aria-labelledby="research-project-title-{{ forloop.index }}">
+        <h3 id="research-project-title-{{ forloop.index }}">{{ project.title | escape }}</h3>
+        {% include research-block.html block=project %}
+      </section>
+    {% endfor %}
+  </section>
+</div>
