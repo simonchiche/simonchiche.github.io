@@ -30,12 +30,12 @@
   align-items: start;
 
   @include breakpoint($small) {
-    grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+    grid-template-columns: minmax(0, 9fr) minmax(0, 11fr);
     grid-template-areas: "image text";
     gap: 2em;
 
     &--image-right {
-      grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+      grid-template-columns: minmax(0, 11fr) minmax(0, 9fr);
       grid-template-areas: "text image";
     }
   }
@@ -45,6 +45,11 @@
   grid-area: text;
   min-width: 0;
   overflow-wrap: break-word;
+
+  @include breakpoint($small) {
+    text-align: justify;
+    hyphens: auto;
+  }
 
   > :last-child {
     margin-bottom: 0;
