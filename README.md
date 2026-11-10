@@ -32,9 +32,8 @@ image, avec le même style gris et la même petite taille que sur la page
 Teaching and Outreach. Les images conservent leurs proportions.
 
 `image_side: left` place l'image à gauche du texte ; `right` la place à droite.
-L'introduction du bloc `neutrinos` s'étend sur toute la largeur disponible ;
-la conclusion est répartie sur deux colonnes. Sur mobile, les textes et les
-figures sont empilés et la conclusion revient à une seule colonne.
+L'introduction et la conclusion du bloc `neutrinos` s'étendent sur toute la
+largeur disponible. Sur mobile, les textes et les figures sont empilés.
 La section **My research projects** reste
 vide pour le moment (`projects: []`).
 

@@ -47,7 +47,7 @@ overview:
     image_caption: ""
 
 # Titre 3 : introduction sur toute la largeur, deux expériences, puis conclusion.
-# La conclusion est répartie en deux colonnes qui s'équilibrent automatiquement.
+# L'introduction et la conclusion occupent toute la largeur disponible.
 neutrinos:
   title: "Detecting ultra-high energy neutrinos"
   introduction: |
@@ -104,7 +104,16 @@ neutrinos:
       image_caption: ""
 
   conclusion: |
-    
+    Beyond GRAND and RNO-G, several other experiments are targeting
+    ultra-high-energy neutrinos using complementary detection techniques,
+    including the Radar Echo Telescope (RET), the Hybrid Elevated Radio
+    Observatory for Neutrinos (HERON), and the Payload for Ultrahigh Energy
+    Observations (PUEO). Together, these efforts make it likely that a new
+    astronomical window will open within the next decade. Integrating
+    ultra-high-energy neutrinos into multi-messenger astronomy will therefore
+    offer unprecedented opportunities for major breakthroughs in our
+    understanding of the high-energy Universe, providing insights into the
+    sources of cosmic rays at the highest energies.
 
 # Titre 4 : la liste reste vide pour être complétée plus tard.
 projects_title: "My research projects"
