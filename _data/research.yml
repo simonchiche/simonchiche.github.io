@@ -117,6 +117,8 @@ neutrinos:
 
 # Titre 4 : trois sous-sections, chacune contenant ses blocs texte/figure.
 # Dans chaque bloc, remplacez description, image, image_alt et image_caption.
+# "publication" contient le titre, les auteurs (dans l'ordre), la revue,
+# la référence bibliographique et le lien affiché sous le texte.
 projects_title: "My research projects"
 projects_introduction: "The ultimate goal of my research is to help develop the next generation of detectors, connect observations with astrophysical models, and integrate ultra-high-energy neutrinos into multi-messenger astronomy. Below, I highlight some of my research projects contributing to this goal.
 "
@@ -142,6 +144,22 @@ projects:
         image_alt: "Ratios of characteristic emission lengths versus air density and zenith angle, highlighting incoherent and synchrotron contributions."
         image_side: left
         image_caption: "Caption to be added."
+        publication:
+          title: >-
+            Loss of Coherence and Change in Emission Physics for Radio Emission
+            from Very Inclined Cosmic-Ray Air Showers
+          authors:
+            - "Simon Chiche"
+            - "Chao Zhang"
+            - "Felix Schlüter"
+            - "Kumiko Kotera"
+            - "Tim Huege"
+            - "Krijn D. de Vries"
+            - "Matias Tueros"
+            - "Marion Guelfand"
+          journal: "Physical Review Letters"
+          reference: "132, 231001 (2024)"
+          url: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.231001"
 
       # Deuxième bloc : texte à gauche, figure à droite.
       - description: |
@@ -162,6 +180,15 @@ projects:
         image_alt: "Ratio of in-air to in-ice radio energy versus zenith angle at a depth of 100 m, for three primary energies."
         image_side: right
         image_caption: "Caption to be added."
+        publication:
+          title: "In-ice radio signatures of cosmic ray particle cascades"
+          authors:
+            - "Simon Chiche"
+            - "Simona Toscano"
+            - "Krijn D. de Vries"
+          journal: "Astroparticle Physics"
+          reference: "182, 103276 (2026)"
+          url: "https://www.sciencedirect.com/science/article/pii/S0927650526000733"
 
   - id: simulation-tools
     title: "Innovative tools for efficient simulations"
@@ -184,22 +211,80 @@ projects:
         image_alt: "Reconstruction uncertainty versus target zenith angle for three frequency bands, with reconstruction bias shown in the upper panel."
         image_side: left
         image_caption: "Caption to be added."
+        publication:
+          title: "Radio morphing: Fast computation of inclined air shower radio emission"
+          authors:
+            - "Simon Chiche"
+            - "Olivier Martineau-Huynh"
+            - "Matias Tueros"
+            - "Krijn D. de Vries"
+          journal: "Astroparticle Physics"
+          reference: "184, 103291 (2027)"
+          url: "https://www.sciencedirect.com/science/article/pii/S0927650526000885"
 
       # Deuxième bloc : texte à gauche, figure à droite.
       - description: |
-          Text to be added.
+          For in-ice neutrino detectors such as ARA and RNO-G,
+          cosmic-ray-induced radio emission constitutes both a major background
+          and a valuable calibration source. Accurate modeling of this emission
+          relies on computationally expensive Monte Carlo simulations, such as
+          FAERIE, limiting the exploration of the full parameter space. In this
+          work, we present a semi-analytical parameterization of the in-ice
+          radio emission from cosmic-ray showers, combining a dense library of
+          FAERIE simulations with scaling laws describing the dependence of the
+          signal on shower parameters. This approach provides order-of-magnitude
+          estimates of the radio signal within seconds, enabling the generation
+          of large simulation datasets for in-ice neutrino experiments. Finally,
+          we explore the potential for cosmic-ray mass composition
+          reconstruction using specific features of their in-ice radio emission.
         image: /images/research/FAERIEParam.png
         image_alt: "Simulated in-ice radio energy normalized by primary energy squared, for three primary energies, compared with an exponential parametrization."
         image_side: right
         image_caption: "Caption to be added."
+        publication:
+          title: >-
+            Semi-analytical parametrization of in-ice radio signals from cosmic
+            ray particle cascades
+          authors:
+            - "Simon Chiche"
+            - "Simona Toscano"
+            - "Krijn D. de Vries"
+          journal: "Proceedings of Science"
+          reference: "ARENA2026, 025 (2026)"
+          url: "https://pos.sissa.it/538/025/pdf"
 
   - id: data-analysis
     title: "Data analysis and reconstruction of astrophysical signatures."
     blocks:
       # Un seul bloc : figure à gauche, texte à droite.
       - description: |
-          Text to be added.
+          The development of large-scale radio experiments requires autonomous
+          radio detection, relying exclusively on antennas to identify particle
+          showers. This involves distinguishing radio signals from particle
+          showers against various sources of background noise. We showed that,
+          for inclined cosmic-ray air showers, the polarization of the radio
+          signal is nearly perpendicular to the Earth's magnetic field,
+          providing a powerful discriminating observable. Using Monte Carlo
+          simulations of the radio emission, together with realistic models of
+          the detector response and radio environment, we demonstrated that
+          this method could reject up to ~93% of the background while retaining
+          ~90% of cosmic-ray events. Finally, we showed that radio polarization
+          also provides a key observable for distinguishing neutrino-induced
+          from cosmic-ray-induced air showers.
         image: /images/research/Polar.png
         image_alt: "Antenna counts as a function of total electric-field amplitude Etot and the field ratio Eb/Etot."
         image_side: left
         image_caption: "Caption to be added."
+        publication:
+          title: >-
+            Polarisation signatures in radio for inclined cosmic-ray induced
+            air-shower identification
+          authors:
+            - "Simon Chiche"
+            - "Kumiko Kotera"
+            - "Olivier Martineau-Huynh"
+            - "Matias Tueros"
+            - "Krijn D. de Vries"
+          journal: "Astroparticle Physics"
+          reference: "139, 102696 (2022)"
+          url: "https://www.sciencedirect.com/science/article/pii/S0927650522000111"

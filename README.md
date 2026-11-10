@@ -45,6 +45,16 @@ Les cinq figures des projets (`Coherence.png`, `IceSignatures.png`, `RM.png`,
 Elles sont affichées en entier, dans un cadre blanc avec des coins
 arrondis ; leurs légendes reprennent le petit texte gris des autres figures.
 
+Le bloc `publication` de chaque étude renseigne le titre de l'article, la liste
+`authors` (noms complets dans l'ordre de publication), `journal`, `reference`
+(volume, numéro d'article et année) et `url`. Le titre, les auteurs et la
+référence apparaissent au-dessus du paragraphe ; le bouton **Read paper** ouvre
+le lien indiqué sous le texte. Le nom correspondant à `author.name` dans
+`_config.yml` est mis en gras dans la liste des auteurs. Les figures sont
+centrées verticalement à côté du texte sur les grands écrans et empilées avec
+le texte sur mobile. Les blocs sans `publication` gardent leur présentation
+habituelle.
+
 Pour ajouter une phrase d'introduction sous le titre **My research projects**,
 remplissez `projects_introduction` dans `_data/research.yml`. Ce champ accepte
 le Markdown et reste invisible lorsqu'il est vide (`""`).

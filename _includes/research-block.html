@@ -1,6 +1,31 @@
-<div class="research-block research-block--image-{{ include.block.image_side | default: 'left' | escape }}">
+{% assign publication = include.block.publication %}
+<div class="research-block research-block--image-{{ include.block.image_side | default: 'left' | escape }}{% if publication %} research-block--study{% endif %}">
   <div class="research-block__text">
+    {% if publication %}
+      <div class="research-study__header">
+        <h4 class="research-study__title">{{ publication.title | escape }}</h4>
+        <p class="research-study__authors">
+          {% for author in publication.authors %}
+            <span class="research-study__author">{% if author == site.author.name %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %},{% endunless %}</span>
+          {% endfor %}
+        </p>
+        <p class="research-study__journal">
+          <cite>{{ publication.journal | escape }}</cite>
+          <span>{{ publication.reference | escape }}</span>
+        </p>
+      </div>
+    {% endif %}
     {{ include.block.description | markdownify }}
+    {% if publication.url %}
+      <div class="research-study__actions">
+        <a class="research-study__link" href="{{ publication.url | escape }}" aria-label="Read paper: {{ publication.title | escape }}">
+          Read paper
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <path d="M7 17 17 7M7 7h10v10"/>
+          </svg>
+        </a>
+      </div>
+    {% endif %}
   </div>
   <figure class="research-block__figure">
     <img src="{{ include.block.image | relative_url }}?v={{ site.time | date: '%s' }}" alt="{{ include.block.image_alt | default: include.block.title | escape }}" loading="lazy" decoding="async">
