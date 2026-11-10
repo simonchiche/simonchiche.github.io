@@ -104,6 +104,14 @@
 .research-introduction {
   overflow-wrap: break-word;
 
+  > :first-child {
+    margin-top: 0;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
   @include breakpoint($small) {
     text-align: justify;
     hyphens: auto;

@@ -46,10 +46,10 @@ overview:
     image_side: right
     image_caption: ""
 
-# Titre 3 : introduction en deux colonnes, deux expériences, puis conclusion.
-# Les colonnes de l'introduction et de la conclusion s'équilibrent automatiquement.
+# Titre 3 : introduction sur toute la largeur, deux expériences, puis conclusion.
+# La conclusion est répartie en deux colonnes qui s'équilibrent automatiquement.
 neutrinos:
-  title: "Detecting ultra-high energy neutrinos."
+  title: "Detecting ultra-high energy neutrinos"
   introduction: |
   
     Detecting ultra-high-energy neutrinos is a major experimental challenge due to their extremely low expected flux and their very small interaction cross-section. So far, only one ultra-high-energy neutrino candidate has been detected by the KM3NeT Collaboration. This motivates the development of new large-scale experiments to detect these particles with unprecedented sensitivity. Radio detection of astroparticles stands out as a particularly promising technique, as it allows vast detection volumes to be monitored using sparse arrays of antennas at relatively low cost.
