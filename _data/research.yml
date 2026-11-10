@@ -122,21 +122,44 @@ projects_introduction: "The ultimate goal of my research is to help develop the 
 "
 projects:
   - id: physical-processes
-    title: "Modelling and Interpretation of Physical Processes"
+    title: "Modelling and interpretation of physical processes"
     blocks:
       # Premier bloc : figure à gauche, texte à droite.
       - description: |
-          Text to be added.
-        image: /images/research/plot-placeholder.svg
-        image_alt: "Placeholder for the first figure on modelling and interpretation of physical processes."
+          In this work, we modelled the radio emission from very inclined
+          cosmic-ray air showers, which propagate through the atmosphere along
+          nearly horizontal trajectories and are primary targets for
+          next-generation radio experiments such as GRAND. We showed that these
+          showers develop in a lower-density atmosphere than more vertical
+          showers, leading to larger deflections of charged particles. As a
+          result, we predicted the emergence of synchrotron-like emission and
+          coherence-loss effects in very inclined showers, which were
+          subsequently confirmed through Monte Carlo simulations of the radio
+          signal. Finally, we discussed the implications of these effects for
+          the development of future radio detectors, particularly regarding the
+          discrimination between neutrino- and cosmic-ray-induced air showers.
+        image: /images/research/Coherence.png
+        image_alt: "Ratios of characteristic emission lengths versus air density and zenith angle, highlighting incoherent and synchrotron contributions."
         image_side: left
         image_caption: "Caption to be added."
 
       # Deuxième bloc : texte à gauche, figure à droite.
       - description: |
-          Text to be added.
-        image: /images/research/plot-placeholder.svg
-        image_alt: "Placeholder for the second figure on modelling and interpretation of physical processes."
+          To detect ultra-high-energy neutrinos, experiments such as RNO-G
+          deploy radio antennas deep in the Greenland ice sheet to detect the
+          radio emission produced by neutrino-induced particle cascades. In
+          this context, characterizing the radio emission from cosmic rays is
+          essential, as these particles provide both a valuable calibration
+          source and a major background in neutrino searches. Using the FAERIE
+          Monte Carlo code, we developed one of the first simulation libraries
+          describing the radio emission from cosmic-ray showers propagating
+          into the ice. We investigated the signatures of these signals in
+          terms of amplitude, frequency content, and polarization. Based on
+          these results, we established key guidelines for identifying the
+          first cosmic-ray events with RNO-G and distinguishing them from
+          neutrino-induced events.
+        image: /images/research/IceSignatures.png
+        image_alt: "Ratio of in-air to in-ice radio energy versus zenith angle at a depth of 100 m, for three primary energies."
         image_side: right
         image_caption: "Caption to be added."
 
@@ -145,17 +168,28 @@ projects:
     blocks:
       # Premier bloc : figure à gauche, texte à droite.
       - description: |
-          Text to be added.
-        image: /images/research/plot-placeholder.svg
-        image_alt: "Placeholder for the first figure on efficient simulation tools."
+          The development of large-scale radio detectors requires both fast
+          and accurate simulations of the radio emission from particle showers.
+          In this context, we developed a new version of Radio Morphing, a
+          semi-analytical code that efficiently predicts the radio emission
+          from inclined cosmic-ray air showers at arbitrary positions in space,
+          using a limited set of reference simulations. To achieve this, we
+          combined reference simulations with newly developed scaling laws
+          describing the shower physics and an interpolation algorithm. Radio
+          Morphing can reproduce the radio signal amplitude with a relative
+          accuracy of approximately 10–15%, while reducing the computation time
+          by more than four orders of magnitude compared to standard Monte
+          Carlo simulations.
+        image: /images/research/RM.png
+        image_alt: "Reconstruction uncertainty versus target zenith angle for three frequency bands, with reconstruction bias shown in the upper panel."
         image_side: left
         image_caption: "Caption to be added."
 
       # Deuxième bloc : texte à gauche, figure à droite.
       - description: |
           Text to be added.
-        image: /images/research/plot-placeholder.svg
-        image_alt: "Placeholder for the second figure on efficient simulation tools."
+        image: /images/research/FAERIEParam.png
+        image_alt: "Simulated in-ice radio energy normalized by primary energy squared, for three primary energies, compared with an exponential parametrization."
         image_side: right
         image_caption: "Caption to be added."
 
@@ -165,7 +199,7 @@ projects:
       # Un seul bloc : figure à gauche, texte à droite.
       - description: |
           Text to be added.
-        image: /images/research/plot-placeholder.svg
-        image_alt: "Placeholder for a figure on data analysis and reconstruction of astrophysical signatures."
+        image: /images/research/Polar.png
+        image_alt: "Antenna counts as a function of total electric-field amplitude Etot and the field ratio Eb/Etot."
         image_side: left
         image_caption: "Caption to be added."

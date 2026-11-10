@@ -40,8 +40,9 @@ et une liste `blocks`. Les deux premières sous-sections ont deux blocs chacune
 Dans chaque bloc, remplacez `Text to be added.` dans `description`, puis
 renseignez `image`, `image_alt` et `image_caption`. Les textes acceptent plusieurs
 paragraphes en laissant une ligne vide entre eux, avec la même indentation.
-Les cinq blocs utilisent provisoirement `plot-placeholder.svg`. Les figures
-d'articles seront affichées en entier, dans un cadre blanc avec des coins
+Les cinq figures des projets (`Coherence.png`, `IceSignatures.png`, `RM.png`,
+`FAERIEParam.png` et `Polar.png`) se trouvent dans `images/research/`.
+Elles sont affichées en entier, dans un cadre blanc avec des coins
 arrondis ; leurs légendes reprennent le petit texte gris des autres figures.
 
 Pour ajouter une phrase d'introduction sous le titre **My research projects**,
