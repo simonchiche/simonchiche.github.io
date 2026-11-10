@@ -57,7 +57,24 @@ neutrinos:
     - id: grand
       title: "GRAND: The Giant Radio for Neutrino Detection"
       description: |
-        GRAND is an experiment that aims to deploy 200 000 radio antennas over 200 000 square kilometers
+        GRAND (Giant Radio Array for Neutrino Detection) is a planned large-scale
+        radio experiment that aims to detect ultra-high-energy neutrinos by
+        deploying 200,000 antennas over 200,000 square kilometers, across
+        radio-quiet sites in favorable mountainous regions around the world.
+        To do so, GRAND will primarily target tau neutrinos arriving at Earth
+        along nearly horizontal trajectories. These neutrinos can interact
+        within mountains or beneath the Earth's surface, producing tau leptons
+        that may emerge into the atmosphere and induce extensive air showers
+        emitting a radio emission detectable on Earth.
+
+        Thanks to its innovative design, GRAND is expected to achieve, in its
+        final configuration, an unprecedented neutrino sensitivity of
+        $\sim 10^{-10}\,\mathrm{GeV\,cm^{-2}\,s^{-1}\,sr^{-1}}$ above
+        $5 \times 10^{17}\,\mathrm{eV}$, together with sub-degree angular
+        resolution and full-sky coverage over time. To date, a total of
+        $\mathcal{O}(80)$ antennas have been deployed, with prototype arrays
+        located in Dunhuang (China), Malargüe (Argentina), and Nançay (France).
+
       image: /images/research/GRAND.png
       image_alt: "Diagram of the GRAND detection principle, showing particle showers above a radio antenna array in mountainous terrain."
       image_side: left
@@ -79,4 +96,6 @@ neutrinos:
 
 # Titre 4 : la liste reste vide pour être complétée plus tard.
 projects_title: "My research projects"
+projects_introduction: "The ultimate goal of my research is to help develop the next generation of detectors, connect observations with astrophysical models, and integrate ultra-high-energy neutrinos into multi-messenger astronomy. Below, I highlight some of my research projects contributing to this goal.
+"
 projects: []

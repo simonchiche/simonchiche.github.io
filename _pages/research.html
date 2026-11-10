@@ -39,6 +39,12 @@ header:
 
   <section class="research-section research-projects" aria-labelledby="research-projects-title">
     <h2 id="research-projects-title">{{ site.data.research.projects_title | escape }}</h2>
+    {% assign projects_introduction = site.data.research.projects_introduction | default: '' | strip %}
+    {% if projects_introduction != '' %}
+      <div class="research-projects__introduction">
+        {{ projects_introduction | markdownify }}
+      </div>
+    {% endif %}
     {% for project in site.data.research.projects %}
       <section class="research-experiment" aria-labelledby="research-project-title-{{ forloop.index }}">
         <h3 id="research-project-title-{{ forloop.index }}">{{ project.title | escape }}</h3>

@@ -37,6 +37,10 @@ colonnes. Sur mobile, les textes et les figures sont empilés et les deux
 colonnes reviennent à une seule. La section **My research projects** reste
 vide pour le moment (`projects: []`).
 
+Pour ajouter une phrase d'introduction sous le titre **My research projects**,
+remplissez `projects_introduction` dans `_data/research.yml`. Ce champ accepte
+le Markdown et reste invisible lorsqu'il est vide (`""`).
+
 La structure se trouve dans `_pages/research.html`, le bloc texte/image partagé
 dans `_includes/research-block.html` et les styles dans `_sass/_research.scss`.
 
