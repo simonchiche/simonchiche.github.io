@@ -83,7 +83,21 @@ neutrinos:
     - id: rno-g
       title: "RNO-G: The Radio Neutrino Observatory in Greenland"
       description: |
-        Paragraph about RNO-G to be added.
+        RNO-G is a large-scale in-ice radio observatory designed to detect
+        ultra-high-energy neutrinos using antennas deployed in the Greenland
+        ice sheet near Summit Station. The array will consist of 35 stations,
+        each equipped with 24 antennas, combining deep in-ice antennas for
+        neutrino detection with surface antennas to identify and veto cosmic-ray
+        events. RNO-G aims to detect the Askaryan radio emission produced by
+        particle cascades induced by neutrino interactions in the ice.
+
+        Once completed, RNO-G is expected to achieve a five-year sensitivity of
+        approximately $E^{2}\Phi_{\nu} \sim 10^{-8}\,\mathrm{GeV\,cm^{-2}\,s^{-1}\,sr^{-1}}$
+        to the all-flavor diffuse neutrino flux, with an instantaneous field of
+        view covering roughly one-third of the sky. This would make it the most
+        sensitive experiment for ultra-high-energy neutrinos at the time of its
+        completion. To date, 12 stations have been deployed and are fully
+        operational.
       image: /images/research/RNOGdetection_sketch.png
       image_alt: "Sketch of the RNO-G detection principle, showing in-ice radio antennas and radio emission from a neutrino interaction."
       image_side: right
