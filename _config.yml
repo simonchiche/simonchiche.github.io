@@ -12,7 +12,7 @@ title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Simon Chiche"
 description              : &description "Personnal website"
-url                      : https://simonchiche.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://simonchiche.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "simonchiche.github.io/"
 
