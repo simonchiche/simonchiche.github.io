@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480" role="img" aria-labelledby="title description">
+  <title id="title">Research figure placeholder</title>
+  <desc id="description">An empty plot area, to be replaced with a figure from a research article.</desc>
+  <rect width="720" height="480" fill="#fff"/>
+  <rect x="80" y="48" width="588" height="352" rx="4" fill="#f7f9fa" stroke="#dce3e8" stroke-width="2" stroke-dasharray="8 8"/>
+  <path d="M80 48V400H668" fill="none" stroke="#9ba7af" stroke-width="3"/>
+  <text x="374" y="218" text-anchor="middle" fill="#64727c" font-family="Arial, sans-serif" font-size="26">Figure to be added</text>
+  <text x="374" y="254" text-anchor="middle" fill="#64727c" font-family="Arial, sans-serif" font-size="18">Plot from a research article</text>
+</svg>

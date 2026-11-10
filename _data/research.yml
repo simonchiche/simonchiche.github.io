@@ -115,8 +115,57 @@ neutrinos:
     understanding of the high-energy Universe, providing insights into the
     sources of cosmic rays at the highest energies.
 
-# Titre 4 : la liste reste vide pour être complétée plus tard.
+# Titre 4 : trois sous-sections, chacune contenant ses blocs texte/figure.
+# Dans chaque bloc, remplacez description, image, image_alt et image_caption.
 projects_title: "My research projects"
 projects_introduction: "The ultimate goal of my research is to help develop the next generation of detectors, connect observations with astrophysical models, and integrate ultra-high-energy neutrinos into multi-messenger astronomy. Below, I highlight some of my research projects contributing to this goal.
 "
-projects: []
+projects:
+  - id: physical-processes
+    title: "Modelling and Interpretation of Physical Processes"
+    blocks:
+      # Premier bloc : figure à gauche, texte à droite.
+      - description: |
+          Text to be added.
+        image: /images/research/plot-placeholder.svg
+        image_alt: "Placeholder for the first figure on modelling and interpretation of physical processes."
+        image_side: left
+        image_caption: "Caption to be added."
+
+      # Deuxième bloc : texte à gauche, figure à droite.
+      - description: |
+          Text to be added.
+        image: /images/research/plot-placeholder.svg
+        image_alt: "Placeholder for the second figure on modelling and interpretation of physical processes."
+        image_side: right
+        image_caption: "Caption to be added."
+
+  - id: simulation-tools
+    title: "Innovative tools for efficient simulations"
+    blocks:
+      # Premier bloc : figure à gauche, texte à droite.
+      - description: |
+          Text to be added.
+        image: /images/research/plot-placeholder.svg
+        image_alt: "Placeholder for the first figure on efficient simulation tools."
+        image_side: left
+        image_caption: "Caption to be added."
+
+      # Deuxième bloc : texte à gauche, figure à droite.
+      - description: |
+          Text to be added.
+        image: /images/research/plot-placeholder.svg
+        image_alt: "Placeholder for the second figure on efficient simulation tools."
+        image_side: right
+        image_caption: "Caption to be added."
+
+  - id: data-analysis
+    title: "Data analysis and reconstruction of astrophysical signatures."
+    blocks:
+      # Un seul bloc : figure à gauche, texte à droite.
+      - description: |
+          Text to be added.
+        image: /images/research/plot-placeholder.svg
+        image_alt: "Placeholder for a figure on data analysis and reconstruction of astrophysical signatures."
+        image_side: left
+        image_caption: "Caption to be added."

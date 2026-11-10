@@ -46,9 +46,11 @@ header:
       </div>
     {% endif %}
     {% for project in site.data.research.projects %}
-      <section class="research-experiment" aria-labelledby="research-project-title-{{ forloop.index }}">
-        <h3 id="research-project-title-{{ forloop.index }}">{{ project.title | escape }}</h3>
-        {% include research-block.html block=project %}
+      <section class="research-experiment" aria-labelledby="research-project-{{ project.id | escape }}-title">
+        <h3 id="research-project-{{ project.id | escape }}-title">{{ project.title | escape }}</h3>
+        {% for block in project.blocks %}
+          {% include research-block.html block=block %}
+        {% endfor %}
       </section>
     {% endfor %}
   </section>

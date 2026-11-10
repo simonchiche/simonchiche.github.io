@@ -18,11 +18,11 @@ et le profil conservent leur opacité normale. Pour le retirer, supprimez le blo
 L'onglet **Research** est accessible à l'adresse `/research/`. Les textes et
 les figures se modifient dans [`_data/research.yml`](_data/research.yml) :
 `overview` contient les deux premières sections, `neutrinos` contient
-l'introduction, GRAND, RNO-G et la conclusion, puis `projects` accueillera
-les projets de recherche. Les deux premières sections utilisent les figures
-`CosmicRays.jpg` et `MM.png`, et GRAND utilise `GRAND.png`, toutes dans
-`images/research/`. Le texte de RNO-G reste à compléter ; sa figure
-`RNOGdetection_sketch.png` est placée à droite du texte.
+l'introduction, GRAND, RNO-G et la conclusion, puis `projects` contient
+les trois sous-sections de projets de recherche. Les deux premières sections
+utilisent les figures `CosmicRays.jpg` et `MM.png`, et GRAND utilise `GRAND.png`,
+toutes dans `images/research/`. La figure de RNO-G,
+`RNOGdetection_sketch.png`, est placée à droite du texte.
 
 Pour remplacer une image, ajoutez votre fichier dans `images/research/`, puis
 modifiez `image` (par exemple `/images/research/mon-projet.png`) et `image_alt`
@@ -34,8 +34,15 @@ Teaching and Outreach. Les images conservent leurs proportions.
 `image_side: left` place l'image à gauche du texte ; `right` la place à droite.
 L'introduction et la conclusion du bloc `neutrinos` s'étendent sur toute la
 largeur disponible. Sur mobile, les textes et les figures sont empilés.
-La section **My research projects** reste
-vide pour le moment (`projects: []`).
+Dans **My research projects**, chaque entrée de `projects` possède un `title`
+et une liste `blocks`. Les deux premières sous-sections ont deux blocs chacune
+(figure à gauche, puis à droite) ; la troisième a un bloc avec figure à gauche.
+Dans chaque bloc, remplacez `Text to be added.` dans `description`, puis
+renseignez `image`, `image_alt` et `image_caption`. Les textes acceptent plusieurs
+paragraphes en laissant une ligne vide entre eux, avec la même indentation.
+Les cinq blocs utilisent provisoirement `plot-placeholder.svg`. Les figures
+d'articles seront affichées en entier, dans un cadre blanc avec des coins
+arrondis ; leurs légendes reprennent le petit texte gris des autres figures.
 
 Pour ajouter une phrase d'introduction sous le titre **My research projects**,
 remplissez `projects_introduction` dans `_data/research.yml`. Ce champ accepte
