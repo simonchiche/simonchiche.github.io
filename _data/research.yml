@@ -84,8 +84,8 @@ neutrinos:
       title: "RNO-G: The Radio Neutrino Observatory in Greenland"
       description: |
         Paragraph about RNO-G to be added.
-      image: /images/research/project-placeholder.svg
-      image_alt: "Placeholder for an illustration of RNO-G."
+      image: /images/research/RNOGdetection_sketch.png
+      image_alt: "Sketch of the RNO-G detection principle, showing in-ice radio antennas and radio emission from a neutrino interaction."
       image_side: right
       image_caption: ""
 

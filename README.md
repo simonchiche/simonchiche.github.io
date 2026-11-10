@@ -21,8 +21,8 @@ les figures se modifient dans [`_data/research.yml`](_data/research.yml) :
 l'introduction, GRAND, RNO-G et la conclusion, puis `projects` accueillera
 les projets de recherche. Les deux premières sections utilisent les figures
 `CosmicRays.jpg` et `MM.png`, et GRAND utilise `GRAND.png`, toutes dans
-`images/research/`. Les textes sur les expériences restent à compléter et
-la figure de RNO-G est provisoire, à droite du texte.
+`images/research/`. Le texte de RNO-G reste à compléter ; sa figure
+`RNOGdetection_sketch.png` est placée à droite du texte.
 
 Pour remplacer une image, ajoutez votre fichier dans `images/research/`, puis
 modifiez `image` (par exemple `/images/research/mon-projet.png`) et `image_alt`
