@@ -1,4 +1,4 @@
-/* Only colors and interaction cues; sizes, spacing and profile stay unchanged. */
+/* Colors, rounded figures and interaction cues; the original layout is retained. */
 @media screen {
   body.site-refined:not(.is-home) {
     background-color: #f7f9fa;
@@ -21,8 +21,14 @@
       outline-offset: 4px;
     }
 
+    .research-block__figure img,
+    .outreach-section__image img {
+      border-radius: 12px;
+    }
+
     .figure-zoom {
       display: block;
+      border-radius: 12px;
       cursor: zoom-in;
     }
   }
