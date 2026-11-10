@@ -11,15 +11,10 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body class="site-polished{% if page.background.image %} has-page-background{% endif %}{% if page.url == '/' %} is-home{% endif %}{% if page.author_profile or layout.author_profile or page.sidebar %} has-author-profile{% endif %}{% if page.url contains '/research/' %} is-research{% endif %}{% if page.url contains '/teaching-and-outreach/' %} is-teaching{% endif %}{% if page.url contains '/publications/' %} is-publications{% endif %}{% if page.url contains '/talks/' %} is-talks{% endif %}">
+  <body class="site-refined{% if page.url == '/' %} is-home{% endif %}{% if page.background.image %} has-page-background{% endif %}">
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
-
-    {% if page.url == '/' and page.background.image %}
-      <div class="home-cover" aria-hidden="true"
-        style="background-image: url('{{ page.background.image | relative_url }}');"></div>
-    {% endif %}
 
     {% if page.background.image %}
       <div class="page-background" aria-hidden="true"

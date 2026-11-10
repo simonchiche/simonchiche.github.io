@@ -1,8 +1,8 @@
-/* Navigation accessibility and figure enlargement. */
+/* Accessible navigation and clickable research/outreach figures. */
 (function () {
   "use strict";
 
-  if (!document.body.classList.contains("site-polished")) return;
+  if (!document.body.classList.contains("site-refined")) return;
 
   var navigation = document.getElementById("site-nav");
   var menuButton = navigation && navigation.querySelector("button");
