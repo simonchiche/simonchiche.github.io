@@ -101,6 +101,15 @@
   }
 }
 
+.research-introduction {
+  overflow-wrap: break-word;
+
+  @include breakpoint($small) {
+    text-align: justify;
+    hyphens: auto;
+  }
+}
+
 .research-conclusion {
   margin-top: 2em;
 }

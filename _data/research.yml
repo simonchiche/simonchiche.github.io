@@ -51,22 +51,20 @@ overview:
 neutrinos:
   title: "Detecting ultra-high energy neutrinos."
   introduction: |
-    Introductory text about ultra-high-energy neutrinos to be added.
-
-    Introductory text about the experiments below to be added.
-
+  
+    Detecting ultra-high-energy neutrinos is a major experimental challenge due to their extremely low expected flux and their very small interaction cross-section. So far, only one ultra-high-energy neutrino candidate has been detected by the KM3NeT Collaboration. This motivates the development of new large-scale experiments to detect these particles with unprecedented sensitivity. Radio detection of astroparticles stands out as a particularly promising technique, as it allows vast detection volumes to be monitored using sparse arrays of antennas at relatively low cost.
   experiments:
     - id: grand
-      title: "The Giant Radio for Neutrino Detection (GRAND)"
+      title: "GRAND: The Giant Radio for Neutrino Detection"
       description: |
-        Paragraph about GRAND to be added.
+        GRAND is an experiment that aims to deploy 200 000 radio antennas over 200 000 square kilometers
       image: /images/research/GRAND.png
       image_alt: "Diagram of the GRAND detection principle, showing particle showers above a radio antenna array in mountainous terrain."
       image_side: left
       image_caption: ""
 
     - id: rno-g
-      title: "The Radio Neutrino Observatory in Greenland (RNO-G)"
+      title: "RNO-G: The Radio Neutrino Observatory in Greenland"
       description: |
         Paragraph about RNO-G to be added.
       image: /images/research/project-placeholder.svg
