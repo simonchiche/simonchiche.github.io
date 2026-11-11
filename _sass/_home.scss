@@ -1,0 +1,69 @@
+/* Homepage accents; retain the portrait, background image and page layout. */
+@media screen {
+  .is-home {
+    .page__inner-wrap {
+      background-image: radial-gradient(
+        ellipse at 50% 40%,
+        rgba(255, 255, 255, 0.3) 0%,
+        rgba(255, 255, 255, 0.18) 55%,
+        rgba(255, 255, 255, 0) 100%
+      );
+    }
+
+    .page__content > .home-introduction {
+      color: #142f43;
+      font-size: 1.08em;
+      font-weight: 500;
+      line-height: inherit;
+    }
+
+    .page__content strong {
+      color: #142f43;
+      font-weight: 650;
+    }
+
+    #main .home-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.65em 0.8em;
+      margin-top: 1.5em;
+
+      a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.6em;
+        min-height: 44px;
+        max-width: 100%;
+        padding: 0.6em 1em;
+        border: 1px solid #b7c9d2;
+        border-radius: 6px;
+        background-color: #fff;
+        color: #214b61;
+        font-size: 0.85em;
+        font-weight: 600;
+        line-height: 1.4;
+        text-decoration: none;
+
+        &:hover {
+          border-color: #90adb9;
+          background-color: #e8f0f3;
+          color: #142f43;
+          text-decoration: none;
+        }
+
+        &.home-actions__link--primary {
+          border-color: #214b61;
+          background-color: #214b61;
+          color: #fff;
+
+          &:hover {
+            border-color: #142f43;
+            background-color: #142f43;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

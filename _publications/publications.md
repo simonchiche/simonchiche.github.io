@@ -7,13 +7,23 @@ Below is a selection of my publications. For a complete list, please visit [Goog
 
 ## Published articles
 
-- ### Loss of coherence and change in emission physics for radio emission from very inclined cosmic-ray air shower
-  **S. Chiche** et al.
+- ### Radio morphing: Fast computation of inclined air shower radio emission
+  **S. Chiche**, O. Martineau-Huynh, M. Tueros, K. D. de Vries
+
+  *Astroparticle Physics* 184, 103291 (2027) · [DOI](https://doi.org/10.1016/j.astropartphys.2026.103291) · [arXiv:2601.06418](https://arxiv.org/abs/2601.06418)
+
+- ### In-ice radio signatures of cosmic ray particle cascades
+  **S. Chiche**, S. Toscano, K. D. de Vries
+
+  *Astroparticle Physics* 182, 103276 (2026) · [DOI](https://doi.org/10.1016/j.astropartphys.2026.103276) · [arXiv:2601.06417](https://arxiv.org/abs/2601.06417)
+
+- ### Loss of coherence and change in emission physics for radio emission from very inclined cosmic-ray air showers
+  **S. Chiche**, C. Zhang, F. Schlüter, K. Kotera, T. Huege, K. D. de Vries, M. Tueros, M. Guelfand
 
   *Physical Review Letters* (2024) · [arXiv:2404.14541](https://arxiv.org/abs/2404.14541)
 
 - ### Particle content of very inclined air showers for radio signal modeling
-  M. Guelfand, **S. Chiche** et al.
+  M. Guelfand, **S. Chiche**, K. Kotera, S. Prunet, T. Pierog
 
   *Journal of Cosmology and Astroparticle Physics* (2024) · [arXiv:2310.19612](https://arxiv.org/abs/2310.19612)
 
@@ -26,19 +36,6 @@ Below is a selection of my publications. For a complete list, please visit [Goog
   F. Durret, **S. Chiche**, C. Lobo, M. Jauzac
 
   *Astronomy & Astrophysics* (2021) · [arXiv:2102.02595](https://arxiv.org/abs/2102.02595)
-{: .publication-list}
-
-## Publications in preparation
-
-- ### Radio Morphing: Fast computation of inclined air shower radio emission
-  **S. Chiche**, O. Martineau, K. Kotera, M. Tueros, K. de Vries
-
-  to be submitted to *Astroparticle Physics* · [arXiv:2601.06418](https://arxiv.org/abs/2601.06418)
-
-- ### In-ice Radio Signatures of Cosmic Ray Particle Cascades
-  **S. Chiche**, S. Toscano, K. de Vries
-
-  to be submitted to *Astroparticle Physics* · [arXiv:2601.06417](https://arxiv.org/abs/2601.06417)
 {: .publication-list}
 
 ## Collaboration articles

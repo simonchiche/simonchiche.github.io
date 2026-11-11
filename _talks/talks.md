@@ -5,8 +5,17 @@ permalink: /talks/
 
 ## Oral Communications
 
+### 2026
+{: .talk-year}
+
+- **TeVPA 2026**, Tendo, Japan, 2 Sep 2026
+
+- **ARENA 2026**, Karlsruhe, Germany, 10 Jun 2026
+
 ### 2025
 {: .talk-year}
+
+- **TeVPA 2025**, Valencia, Spain, 6 Nov 2025
 
 - **ICRC 2025**, Geneva, Switzerland, 16 Jul 2025  
   *Radio signatures of cosmic-ray showers with deep in-ice antennas.*
@@ -35,6 +44,9 @@ permalink: /talks/
 ### 2023
 {: .talk-year}
 
+- **PhD thesis defense**, IAP, Paris, France, 20 Sep 2023<br />
+  *Looking for ultra-high-energy astroparticles in a radio haystack.*
+
 - **ICRC 2023**, *Nagoya, Japan*, 2 Aug 2023  
   *New paradigm and radio signatures for very inclined cosmic-ray air showers.*
 
@@ -59,7 +71,7 @@ permalink: /talks/
 - **PhD Day 2022**, Paris, France, 22 Apr 2022  
   *Finding the sources of the highest-energy astroparticles with radio detection.*
 
-- **Moriond VHEPU 2022**, *La Thuile, Italy*, **21 Mar 2022**  
+- **Moriond VHEPU 2022**, *La Thuile, Italy*, **21 Mar 2022** (invited plenary talk)<br />
   *Overview of radio experiments for UHE cosmic-particle detection.*
 
 ### 2021
@@ -74,7 +86,7 @@ permalink: /talks/
 - **JRJC 2021**, *La Rochelle, France*, 17 Oct 2021  
   *Radio Morphing: Towards a fast computation of air-shower radio emission.*
 
-- **ICRC 2021**, online, 13 Jul 2021
+- **ICRC 2021**, online, 13 Jul 2021<br />
   *Radio Morphing: Towards a fast computation of air-shower radio emission.*
 
 - **PhD Day 2021**, Paris, France, 4 May 2021  
@@ -96,6 +108,13 @@ permalink: /talks/
 ---
 
 ## Invited Seminars
+
+### 2025
+{: .talk-year}
+
+- **AstroParticule et Cosmologie (APC)**, France, 26 Nov 2025
+
+- **High-energy Journal Club**, Brussels, Belgium, 18 Nov 2025
 
 ### 2022
 {: .talk-year}
@@ -132,5 +151,14 @@ permalink: /talks/
 
 - **IIHE**, *online*, 26 Oct 2020,  Invited by Krijn D. de Vries.  
   *Study of polarisation signatures from cosmic-ray showers with GRAND.*  
- 
+
+---
+
+## Regular Collaboration Contributions
+
+### 2020–2023
+{: .talk-year}
+
+- **GRAND collaboration**, 2020–2023<br />
+  *Regular contributions (one per trimester) to monthly GRAND calls and monthly GRAND analysis meetings.*
 
