@@ -8,10 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Homepage"
+title                    : "Simon Chiche | Astroparticle Physicist"
+masthead_title           : "Homepage" # Short label used in the navigation.
 title_separator          : "-"
 name                     : &name "Simon Chiche"
-description              : &description "Personnal website"
+description              : &description "Personal website of Simon Chiche, astroparticle physicist researching ultra-high-energy cosmic rays, neutrinos and radio detection."
 url                      : https://simonchiche.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "simonchiche.github.io/"
