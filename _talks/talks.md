@@ -5,8 +5,14 @@ permalink: /talks/
 
 ## Oral Communications
 
+### 2025
+{: .talk-year}
+
 - **ICRC 2025**, Geneva, Switzerland, 16 Jul 2025  
   *Radio signatures of cosmic-ray showers with deep in-ice antennas.*
+
+### 2024
+{: .talk-year}
 
 - **RNO-G Collaboration Meeting**, Uppsala, Sweden, 9 Sep 2024  
   *Radio signatures of cosmic-ray showers with deep in-ice antennas.*
@@ -26,6 +32,9 @@ permalink: /talks/
 - **Belgian Neutrino Meeting**, Louvain-la-Neuve, Belgium, 11 Mar 2024  
   *Looking for ultra-high-energy astroparticles in a radio haystack with GRAND.*
 
+### 2023
+{: .talk-year}
+
 - **ICRC 2023**, *Nagoya, Japan*, 2 Aug 2023  
   *New paradigm and radio signatures for very inclined cosmic-ray air showers.*
 
@@ -41,6 +50,9 @@ permalink: /talks/
 - **GRAND annual Collaboration Meeting**, Nijmegen, The Netherlands, 17 Jan 2023  
   *Radio emission from very inclined air-showers: a new paradigm and new signatures.*
 
+### 2022
+{: .talk-year}
+
 - **ARENA 2022**, Santiago de Compostela, Spain, 7 Jun 2022  
   *New features in the radio emission of inclined showers.*
 
@@ -49,6 +61,9 @@ permalink: /talks/
 
 - **Moriond VHEPU 2022**, *La Thuile, Italy*, **21 Mar 2022**  
   *Overview of radio experiments for UHE cosmic-particle detection.*
+
+### 2021
+{: .talk-year}
 
 - **GRAND annual Collaboration Meeting**, *Paris, France*, 15 Dec 2021  
   *Emission processes of very inclined air-showers.*
@@ -72,12 +87,18 @@ permalink: /talks/
 
 ## Poster Communications
 
+### 2020
+{: .talk-year}
+
 - **Cosmic-ray and Neutrino in Paris Workshop**, online, 7 Dec 2020  
   *The Giant Radio Array for Neutrino Detection.*
 
 ---
 
 ## Invited Seminars
+
+### 2022
+{: .talk-year}
 
 - **IAP**, Paris, France, 27 Nov 2022, Invited by Irina Dvorkin.  
   *Radio emission from very inclined air-showers: a new paradigm and new signatures.*  
@@ -95,9 +116,15 @@ permalink: /talks/
   *Emission processes of very inclined air showers.*  
   
 
+### 2021
+{: .talk-year}
+
 - **IAP**, *Paris, France*, 28 May 2021, Invited by Marko Shuntov.  
   *Radio-Morphing: a fast, efficient and accurate tool to compute air shower signals*  
   
+
+### 2020
+{: .talk-year}
 
 - **IAP**, *Paris, France*, 28 Oct 2020, Invited by Irina Dvorkin.  
   *Looking for ultra-high-energy astroparticles in a radio haystack.*  

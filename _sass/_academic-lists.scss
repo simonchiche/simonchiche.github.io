@@ -1,0 +1,43 @@
+/* Compact bibliographic entries; keep the site's normal line spacing. */
+.page__content .publication-list {
+  margin: 0 0 1.3em;
+  padding: 0;
+  list-style: none;
+
+  > li {
+    margin: 0 0 1.1em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    > h3 {
+      margin: 0 0 0.15em;
+      font-size: 1em;
+      font-weight: 650;
+      line-height: 1.5;
+      overflow-wrap: break-word;
+    }
+
+    > p {
+      margin: 0;
+      color: #52616f;
+      font-size: 0.85em;
+      line-height: 1.5;
+      overflow-wrap: break-word;
+
+      strong {
+        color: #142f43;
+      }
+    }
+  }
+}
+
+/* Year markers separate the existing talk lists without changing their text. */
+.page__content .talk-year {
+  margin: 1.6em 0 0.65em;
+  color: #52616f;
+  font-size: 0.9em;
+  font-weight: 650;
+  line-height: 1.5;
+}

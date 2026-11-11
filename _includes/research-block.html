@@ -28,7 +28,7 @@
     {% endif %}
   </div>
   <figure class="research-block__figure">
-    <img src="{{ include.block.image | relative_url }}?v={{ site.time | date: '%s' }}" alt="{{ include.block.image_alt | default: include.block.title | escape }}" loading="lazy" decoding="async">
+    <img src="{{ include.block.image | relative_url }}?v={{ site.time | date: '%s' }}" alt="{{ include.block.image_alt | default: include.block.title | escape }}"{% if include.block.image_width and include.block.image_height %} width="{{ include.block.image_width | escape }}" height="{{ include.block.image_height | escape }}"{% endif %} loading="lazy" decoding="async">
     {% if include.block.image_caption and include.block.image_caption != empty %}
       <figcaption>{{ include.block.image_caption | markdownify }}</figcaption>
     {% endif %}

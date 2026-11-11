@@ -5,6 +5,29 @@
   }
 
   .site-refined {
+    .greedy-nav {
+      a {
+        color: #52616f;
+
+        &:hover,
+        &[aria-current="page"] {
+          color: #142f43;
+        }
+      }
+
+      .visible-links a[aria-current="page"]::before {
+        background-color: #25869b;
+        transform: scaleX(1);
+      }
+
+      .hidden-links a[aria-current="page"] {
+        text-decoration: underline;
+        text-decoration-color: #25869b;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 0.35em;
+      }
+    }
+
     #main {
       h1, h2, h3, h4, h5, h6 {
         color: #142f43;

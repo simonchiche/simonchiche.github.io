@@ -4,6 +4,8 @@
 # "image_side" indique le côté de l'image : left ou right.
 # "image_alt" décrit la figure ; "image_caption" est une légende facultative.
 # Les chemins d'images commencent par /images/.
+# "image_width" et "image_height" sont les dimensions du fichier en pixels,
+# à actualiser si l'image est remplacée ; elles ne fixent pas sa taille à l'écran.
 
 # Titres 1 et 2 : un paragraphe accompagné d'une image.
 overview:
@@ -22,9 +24,11 @@ overview:
       particles and their acceleration mechanisms at the highest energies
       remain largely unknown.
     image: /images/research/CosmicRays.jpg
+    image_width: 1380
+    image_height: 776
     image_alt: "Cosmic rays producing particle cascades in Earth's atmosphere."
     image_side: left
-    image_caption: "Caption to be added. Credit: source to be added."
+    image_caption: "Cosmic rays arriving on Earth interact with the atmosphere and produce particle cascades. Credit: UChicago"
 
   - id: multi-messenger
     title: "A multi-messenger experience"
@@ -42,9 +46,11 @@ overview:
       and gravitational waves, therefore offers a powerful way to investigate
       cosmic ray origin.
     image: /images/research/MM.png
-    image_alt: "Gamma rays, neutrinos, cosmic rays and gravitational waves travelling from a cosmic source to Earth."
+    image_width: 1672
+    image_height: 941
+    image_alt: "Gamma rays, neutrinos, cosmic rays and gravitational waves."
     image_side: right
-    image_caption: ""
+    image_caption: "Gamma rays, neutrinos, cosmic rays and gravitational waves bring complementary information about the Universe. Their combined detection therefore provides a unique opportunity to understand cosmic ray acceleration at the highest energies."
 
 # Titre 3 : introduction sur toute la largeur, deux expériences, puis conclusion.
 # L'introduction et la conclusion occupent toute la largeur disponible.
@@ -76,9 +82,11 @@ neutrinos:
         located in Dunhuang (China), Malargüe (Argentina), and Nançay (France).
 
       image: /images/research/GRAND.png
+      image_width: 1920
+      image_height: 1080
       image_alt: "Diagram of the GRAND detection principle, showing particle showers above a radio antenna array in mountainous terrain."
       image_side: left
-      image_caption: ""
+      image_caption: "The Giant Radio Array for Neutrino Detection (GRAND) will target the radio emission from particle cascades induced by ultra-high-energy tau-neutrinos passing through a mountain or the Earth's crust."
 
     - id: rno-g
       title: "RNO-G: The Radio Neutrino Observatory in Greenland"
@@ -99,9 +107,11 @@ neutrinos:
         completion. To date, 12 stations have been deployed and are fully
         operational.
       image: /images/research/RNOGdetection_sketch.png
+      image_width: 2003
+      image_height: 1153
       image_alt: "Sketch of the RNO-G detection principle, showing in-ice radio antennas and radio emission from a neutrino interaction."
       image_side: right
-      image_caption: ""
+      image_caption: "The Radio Neutrino Observatory in Greenland (RNO-G) will target the radio emission from particle cascades induced by ultra-high-energy neutrinos interacting in the ice sheet."
 
   conclusion: |
     Beyond GRAND and RNO-G, several other experiments are targeting
@@ -141,9 +151,11 @@ projects:
           the development of future radio detectors, particularly regarding the
           discrimination between neutrino- and cosmic-ray-induced air showers.
         image: /images/research/Coherence.png
+        image_width: 1489
+        image_height: 1089
         image_alt: "Ratios of characteristic emission lengths versus air density and zenith angle, highlighting incoherent and synchrotron contributions."
         image_side: left
-        image_caption: "Caption to be added."
+        image_caption: "The standard description of radio emission from cosmic-ray air showers needs to be refined for highly inclined showers, for which incoherent emission and geosynchrotron-like radiation can be observed."
         publication:
           title: >-
             Loss of Coherence and Change in Emission Physics for Radio Emission
@@ -177,9 +189,11 @@ projects:
           first cosmic-ray events with RNO-G and distinguishing them from
           neutrino-induced events.
         image: /images/research/IceSignatures.png
+        image_width: 1422
+        image_height: 1122
         image_alt: "Ratio of in-air to in-ice radio energy versus zenith angle at a depth of 100 m, for three primary energies."
         image_side: right
-        image_caption: "Caption to be added."
+        image_caption: "The dominant radio emission mechanism observed by in-ice antennas depends on the inclination of the cosmic-ray air shower. For more vertical (inclined) showers, the radio emission produced in the ice (in the atmosphere) dominates."
         publication:
           title: "In-ice radio signatures of cosmic ray particle cascades"
           authors:
@@ -208,9 +222,11 @@ projects:
           by more than four orders of magnitude compared to standard Monte
           Carlo simulations.
         image: /images/research/RM.png
+        image_width: 1497
+        image_height: 1241
         image_alt: "Reconstruction uncertainty versus target zenith angle for three frequency bands, with reconstruction bias shown in the upper panel."
         image_side: left
-        image_caption: "Caption to be added."
+        image_caption: "Radio Morphing enables fast simulations of cosmic-ray air shower radio emission. It provides a relative accuracy of ~10–15% on the signal amplitude, while reducing the computation time by more than four orders of magnitude compared to standard Monte Carlo simulations."
         publication:
           title: "Radio morphing: Fast computation of inclined air shower radio emission"
           authors:
@@ -238,9 +254,11 @@ projects:
           we explore the potential for cosmic-ray mass composition
           reconstruction using specific features of their in-ice radio emission.
         image: /images/research/FAERIEParam.png
+        image_width: 1327
+        image_height: 1029
         image_alt: "Simulated in-ice radio energy normalized by primary energy squared, for three primary energies, compared with an exponential parametrization."
         image_side: right
-        image_caption: "Caption to be added."
+        image_caption: "We performed a semi-analytical parametrization of the FAERIE Monte Carlo code that simulates in-ice cosmic ray radio emission. This enables the generation of large datasets for event rate estimations and reconstruction of the shower properties."
         publication:
           title: >-
             Semi-analytical parametrization of in-ice radio signals from cosmic
@@ -272,9 +290,11 @@ projects:
           also provides a key observable for distinguishing neutrino-induced
           from cosmic-ray-induced air showers.
         image: /images/research/Polar.png
+        image_width: 1412
+        image_height: 985
         image_alt: "Antenna counts as a function of total electric-field amplitude Etot and the field ratio Eb/Etot."
         image_side: left
-        image_caption: "Caption to be added."
+        image_caption: "The radio signal polarization provides a powerful discriminating observable for identifying cosmic-ray air showers. We show that for very inclined showers, the polarization at most observers is nearly perpendicular to the Earth's magnetic field."
         publication:
           title: >-
             Polarisation signatures in radio for inclined cosmic-ray induced

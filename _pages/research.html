@@ -10,6 +10,11 @@ header:
 ---
 
 <div class="research-content">
+  <nav class="research-shortcuts" aria-label="Research sections">
+    <a href="#research-{{ site.data.research.overview.first.id | escape }}-title">General overview</a>
+    <a href="#research-projects-title">My research</a>
+  </nav>
+
   {% for section in site.data.research.overview %}
     <section class="research-section" aria-labelledby="research-{{ section.id | escape }}-title">
       <h2 id="research-{{ section.id | escape }}-title">{{ section.title | escape }}</h2>

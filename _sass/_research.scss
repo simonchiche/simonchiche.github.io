@@ -1,4 +1,40 @@
 /* Research overview, experiment descriptions and future projects. */
+.research-shortcuts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em 0.75em;
+  margin: 0 0 1.5em;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0.45em 0.85em;
+    border: 1px solid #b7c9d2;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #214b61;
+    font-size: 0.85em;
+    font-weight: 600;
+    line-height: 1.4;
+
+    &,
+    &:hover {
+      text-decoration: none;
+    }
+
+    &:hover {
+      border-color: #90adb9;
+      background-color: #e8f0f3;
+      color: #142f43;
+    }
+  }
+}
+
+.research-shortcuts + .research-section {
+  margin-top: 0;
+}
+
 .research-section {
   margin-top: 2.5em;
 
@@ -10,6 +46,7 @@
     margin: 0 0 1em;
     padding-bottom: 0;
     border-bottom: 0;
+    scroll-margin-top: calc(#{$masthead-height} + 1rem);
   }
 }
 
@@ -144,6 +181,14 @@
 
 .research-projects {
   margin-top: 0;
+
+  > .research-experiment > h3 {
+    padding-left: 0.7em;
+    border-left: 3px solid #25869b;
+    font-size: 1.25em;
+    font-weight: 700;
+    line-height: 1.35;
+  }
 
   .research-block + .research-block {
     margin-top: 2em;
